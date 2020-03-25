@@ -23,11 +23,11 @@ class TestCalc:
         assert self.calc.add(0.11, 0.22) == 0.33
 
     # 加法-无效等价类
-    # 5. 两个正数相加，结果错误
+    # 1. 两个正数相加，结果错误
     def test_add5(self):
         assert self.calc.add(1, 2) == 4
 
-    # 6. 两个负数相加，结果错误
+    # 2. 两个负数相加，结果错误
     def test_add6(self):
         assert self.calc.add(-1, -2) == -4
 
@@ -57,14 +57,14 @@ class TestCalc:
         assert self.calc.div(2.48, 1.24) == 2
 
     # 除法-无效等价类
-    # 7. 除数为零，报错
+    # 1. 除数为零，报错
     def test_div7(self):
         assert self.calc.div(1, 0) == 0
 
-    # 8. 两正数相除，结果错误
+    # 2. 两正数相除，结果错误
     def test_div8(self):
         assert self.calc.div(6, 3) == 3
 
-    # 9. 正数除以负数，结果错误
+    # 3. 正数除以负数，结果错误
     def test_div9(self):
         assert self.calc.div(6, -3) == 2
