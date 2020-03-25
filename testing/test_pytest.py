@@ -29,7 +29,7 @@ class TestCalc:
 
     # 2. 两个负数相加，结果错误
     def test_add6(self):
-        assert self.calc.add(-1, -2) == -4
+        assert self.calc.add(-1, -2) == -5
 
     # 除法-有效等价类
     # 1. 两个正数相除，结果为整数
