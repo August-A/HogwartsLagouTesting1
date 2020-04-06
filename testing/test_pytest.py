@@ -20,7 +20,7 @@ class TestCalc:
 
     # 4. 两个小数相加
     def test_add4(self):
-        assert self.calc.add(0.11, 0.22) == 0.33
+        assert self.calc.add(1.11, 2.22) == 3.33
 
     # 加法-无效等价类
     # 1. 两个正数相加，结果错误
